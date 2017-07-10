@@ -10,12 +10,12 @@ using System.Threading.Tasks;
 
 namespace GroupDocs.Annotation.CSharp
 {
-    class PDFAnnotation
+    class ImagesAnnotation
     {
 
 
         /// <summary>
-        /// Adds text annotation in PDF document
+        /// Adds text annotation in Images document
         /// </summary>
         public static void AddTextAnnotation()
         {
@@ -35,15 +35,14 @@ namespace GroupDocs.Annotation.CSharp
                     PageNumber = 0,
                     SvgPath = "[{\"x\":265.44,\"y\":388.83},{\"x\":472.19,\"y\":388.83},{\"x\": 265.44,\"y\":349.14},{\"x\":472.19,\"y\":349.14}]",
                     Type = AnnotationType.Text,
-                    CreatorName = "Anonym A.",
-                    
+                    CreatorName = "Anonym A."
                 };
 
                 // Add annotation to list
                 annotations.Add(textAnnotation);
 
                 // Export annotation and save output file
-                CommonUtilities.SaveOutputDocument(inputFile, annotations, DocumentType.Words);
+                CommonUtilities.SaveOutputDocument(inputFile, annotations, DocumentType.Images);
                 //ExEnd:AddTextAnnotation
             }
             catch (System.Exception exp)
@@ -54,7 +53,7 @@ namespace GroupDocs.Annotation.CSharp
 
 
         /// <summary>
-        /// Adds area annotation with replies in PDF document
+        /// Adds area annotation with replies in Images document
         /// </summary>
         public static void AddAreaAnnotationWithReplies()
         {
@@ -93,14 +92,13 @@ namespace GroupDocs.Annotation.CSharp
                     PenStyle = 1,
                     PenWidth = 1,
                     Type = AnnotationType.Area,
-                    CreatorName = "Anonym A.",
-                    
+                    CreatorName = "Anonym A."
                 };
                 // Add annotation to list
                 annotations.Add(areaAnnnotation);
 
                 // Export annotation and save output file
-                CommonUtilities.SaveOutputDocument(inputFile, annotations, DocumentType.Pdf);
+                CommonUtilities.SaveOutputDocument(inputFile, annotations, DocumentType.Images);
                 //ExEnd:AddAreaAnnotationWithReplies
             }
             catch (System.Exception exp)
@@ -110,7 +108,7 @@ namespace GroupDocs.Annotation.CSharp
         }
 
         /// <summary>
-        /// Adds point annotation in PDF document
+        /// Adds point annotation in Images document
         /// </summary>
         public static void AddPointAnnotation()
         {
@@ -135,7 +133,7 @@ namespace GroupDocs.Annotation.CSharp
                 annotations.Add(pointAnnotation);
 
                 // Export annotation and save output file
-                CommonUtilities.SaveOutputDocument(inputFile, annotations, DocumentType.Pdf);
+                CommonUtilities.SaveOutputDocument(inputFile, annotations, DocumentType.Images);
                 //ExEnd:AddPointAnnotation
             }
             catch (System.Exception exp)
@@ -145,7 +143,7 @@ namespace GroupDocs.Annotation.CSharp
         }
 
         /// <summary>
-        /// Adds text strikeout annotation in PDF document
+        /// Adds text strikeout annotation in Images document
         /// </summary>
         public static void AddTextStrikeOutAnnotation()
         {
@@ -171,7 +169,7 @@ namespace GroupDocs.Annotation.CSharp
                 annotations.Add(strikeoutAnnotation);
 
                 // Export annotation and save output file
-                CommonUtilities.SaveOutputDocument(inputFile, annotations, DocumentType.Pdf);
+                CommonUtilities.SaveOutputDocument(inputFile, annotations, DocumentType.Images);
                 //ExEnd:AddTextStrikeOutAnnotation
             }
             catch (System.Exception exp)
@@ -181,7 +179,7 @@ namespace GroupDocs.Annotation.CSharp
         }
 
         /// <summary>
-        /// Adds polyline annotation in PDF document
+        /// Adds polyline annotation in Images document
         /// </summary>
         public static void AddPolylineAnnotation()
         {
@@ -210,7 +208,7 @@ namespace GroupDocs.Annotation.CSharp
                 annotations.Add(polylineAnnotation);
 
                 // Export annotation and save output file
-                CommonUtilities.SaveOutputDocument(inputFile, annotations, DocumentType.Pdf);
+                CommonUtilities.SaveOutputDocument(inputFile, annotations, DocumentType.Images);
                 //ExEnd:AddPolylineAnnotation
             }
             catch (System.Exception exp)
@@ -220,7 +218,7 @@ namespace GroupDocs.Annotation.CSharp
         }
 
         /// <summary>
-        /// Adds text field annotation in PDF document
+        /// Adds text field annotation in Images document
         /// </summary>
         public static void AddTextFieldAnnotation()
         {
@@ -249,7 +247,7 @@ namespace GroupDocs.Annotation.CSharp
                 annotations.Add(textFieldAnnotation);
 
                 // Export annotation and save output file
-                CommonUtilities.SaveOutputDocument(inputFile, annotations, DocumentType.Pdf);
+                CommonUtilities.SaveOutputDocument(inputFile, annotations, DocumentType.Images);
                 //ExEnd:AddTextFieldAnnotation
             }
             catch (System.Exception exp)
@@ -259,7 +257,7 @@ namespace GroupDocs.Annotation.CSharp
         }
 
         /// <summary>
-        /// Adds watermark annotation in PDF document
+        /// Adds watermark annotation in Images document
         /// </summary>
         public static void AddWatermarkAnnotation()
         {
@@ -289,7 +287,7 @@ namespace GroupDocs.Annotation.CSharp
                 annotations.Add(watermarkAnnotation);
 
                 // Export annotation and save output file
-                CommonUtilities.SaveOutputDocument(inputFile, annotations, DocumentType.Pdf);
+                CommonUtilities.SaveOutputDocument(inputFile, annotations, DocumentType.Images);
                 //ExEnd:AddWatermarkAnnotation
             }
             catch (System.Exception exp)
@@ -299,7 +297,7 @@ namespace GroupDocs.Annotation.CSharp
         }
 
         /// <summary>
-        /// Adds text replacement annotation in PDF document
+        /// Adds text replacement annotation in Images document
         /// </summary>
         public static void AddTextReplacementAnnotation()
         {
@@ -328,7 +326,7 @@ namespace GroupDocs.Annotation.CSharp
                 annotations.Add(textReplacementAnnotation);
 
                 // Export annotation and save output file
-                CommonUtilities.SaveOutputDocument(inputFile, annotations, DocumentType.Pdf);
+                CommonUtilities.SaveOutputDocument(inputFile, annotations, DocumentType.Images);
                 //ExEnd:AddTextReplacementAnnotation
             }
             catch (System.Exception exp)
@@ -338,7 +336,7 @@ namespace GroupDocs.Annotation.CSharp
         }
 
         /// <summary>
-        /// Adds arrow annotation in PDF document
+        /// Adds arrow annotation in Images document
         /// </summary>
         public static void AddArrowAnnotation()
         {
@@ -368,7 +366,7 @@ namespace GroupDocs.Annotation.CSharp
                 annotations.Add(arrowAnnotation);
 
                 // Export annotation and save output file
-                CommonUtilities.SaveOutputDocument(inputFile, annotations, DocumentType.Pdf);
+                CommonUtilities.SaveOutputDocument(inputFile, annotations, DocumentType.Images);
                 //ExEnd:AddArrowAnnotation
             }
             catch (System.Exception exp)
@@ -378,7 +376,7 @@ namespace GroupDocs.Annotation.CSharp
         }
 
         /// <summary>
-        /// Adds text redaction annotation in PDF document
+        /// Adds text redaction annotation in Images document
         /// </summary>
         public static void AddTextRedactionAnnotation()
         {
@@ -404,7 +402,7 @@ namespace GroupDocs.Annotation.CSharp
                 annotations.Add(textRedactionAnnotation);
 
                 // Export annotation and save output file
-                CommonUtilities.SaveOutputDocument(inputFile, annotations, DocumentType.Pdf);
+                CommonUtilities.SaveOutputDocument(inputFile, annotations, DocumentType.Images);
                 //ExEnd:AddTextRedactionAnnotation
             }
             catch (System.Exception exp)
@@ -414,7 +412,7 @@ namespace GroupDocs.Annotation.CSharp
         }
 
         /// <summary>
-        /// Adds underline annotation in PDF document
+        /// Adds underline annotation in Images document
         /// </summary>
         public static void AddUnderLineAnnotation()
         {
@@ -440,7 +438,7 @@ namespace GroupDocs.Annotation.CSharp
                 annotations.Add(underlineAnnotation);
 
                 // Export annotation and save output file
-                CommonUtilities.SaveOutputDocument(inputFile, annotations, DocumentType.Pdf);
+                CommonUtilities.SaveOutputDocument(inputFile, annotations, DocumentType.Images);
                 //ExEnd:AddUnderLineAnnotation
             }
             catch (System.Exception exp)
@@ -450,7 +448,7 @@ namespace GroupDocs.Annotation.CSharp
         }
 
         /// <summary>
-        /// Adds distance annotation in PDF document
+        /// Adds distance annotation in Images document
         /// </summary>
         public static void AddDistanceAnnotation()
         {
@@ -481,7 +479,7 @@ namespace GroupDocs.Annotation.CSharp
                 annotations.Add(distanceAnnotation);
 
                 // Export annotation and save output file
-                CommonUtilities.SaveOutputDocument(inputFile, annotations, DocumentType.Pdf);
+                CommonUtilities.SaveOutputDocument(inputFile, annotations, DocumentType.Images);
                 //ExEnd:AddDistanceAnnotation
             }
             catch (System.Exception exp)
@@ -491,7 +489,7 @@ namespace GroupDocs.Annotation.CSharp
         }
 
         /// <summary>
-        /// Adds resource redaction annotation in PDF document
+        /// Adds resource redaction annotation in Images document
         /// </summary>
         public static void AddResourceRedactionAnnotation()
         {
@@ -519,7 +517,7 @@ namespace GroupDocs.Annotation.CSharp
                 annotations.Add(resourceRedactionAnnotation);
 
                 // Export annotation and save output file
-                CommonUtilities.SaveOutputDocument(inputFile, annotations, DocumentType.Pdf);
+                CommonUtilities.SaveOutputDocument(inputFile, annotations, DocumentType.Images);
                 //ExEnd:AddResourceRedactionAnnotation
             }
             catch (System.Exception exp)
@@ -529,7 +527,7 @@ namespace GroupDocs.Annotation.CSharp
         }
 
         /// <summary>
-        /// Removes all annotations in PDF document
+        /// Removes all annotations in Images document
         /// </summary>
         public static void RemoveAllAnnotationsFromDocument()
         {
@@ -546,10 +544,10 @@ namespace GroupDocs.Annotation.CSharp
                 Stream inputFile = new FileStream(CommonUtilities.MapSourceFilePath(CommonUtilities.filePath), FileMode.Open, FileAccess.ReadWrite);
 
                 // Get output file stream
-                Stream result = annotator.RemoveAnnotationStream(inputFile, DocumentType.Pdf);
+                Stream result = annotator.RemoveAnnotationStream(inputFile, DocumentType.Images);
 
                 // Save result stream to file.
-                using (FileStream fileStream = new FileStream(CommonUtilities.MapDestinationFilePath("Annotated.pdf"), FileMode.Create))
+                using (FileStream fileStream = new FileStream(CommonUtilities.MapDestinationFilePath("Annotated.png"), FileMode.Create))
                 {
                     byte[] buffer = new byte[result.Length];
                     result.Seek(0, SeekOrigin.Begin);

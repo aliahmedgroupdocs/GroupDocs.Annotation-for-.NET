@@ -17,12 +17,11 @@ Directory | Description
 [Showcases](https://github.com/groupdocsAnnotation/GroupDocs_Annotation_NET/tree/master/Showcases)  | The *Legacy Front End* is the open source web based projects. This project is based on Front Controller Design pattern and demonstrate the salient features of GroupDocs.Annotation API. 
 [Plugins](https://github.com/groupdocs-Annotation/GroupDocs.Annotation-for-.NET/tree/master/Plugins/GroupDocs_Annotation_VSPlugin)  | Contains the plugins related to GroupDocs.Annotation 3.x for Visual Studio.
 ## Resources
-
 + **Website:** [www.groupdocs.com](http://www.groupdocs.com)
 + **Product Home:** [GroupDocs.Annotation for .NET](http://groupdocs.com/dot-net/document-Annotation-library)
 + **Product API:** [API of GroupDocs.Annotation for .NET](http://groupdocs.com/api/net/Annotation)
-+ **Download:** [Download GroupDocs.Annotation for .NET](http://groupdocs.com/Community/files/8/.net-libraries/groupdocs_Annotation_for_.net/full.aspx)
++ **Download:** [Download GroupDocs.Annotation for .NET](https://downloads.groupdocs.com/annotation/net)
 + **Documentation:** [GroupDocs.Annotation for .NET Documentation](http://groupdocs.com/docs/display/Annotationnet/Introducing+GroupDocs.Annotation+for+.NET)
 + **Forum:** [GroupDocs.Annotation for .NET Forum](http://groupdocs.com/Community/forums/groupdocs.Annotation-product-family/5/showforum.aspx)
-+ **Blog:** [GroupDocs.Annotation for .NET Blog](http://www.groupdocs.com/blog/category/groupdocs-annotation-product-family)
-
++ **Blog:** [GroupDocs.Annotation for .NET Blog](https://blog.groupdocs.com/category/groupdocs-annotation-product-family/)
++ **Website:** [www.groupdocs.com](http://www.groupdocs.com)
